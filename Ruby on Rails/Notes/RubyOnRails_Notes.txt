@@ -1,0 +1,25 @@
+Ruby notes
+
+--Run Ruby in command line
+
+$ rails new nameofproject
+	- ex) rails new myrubyblog
+	- This creates everything for us, the whole framework
+
+-------------------------------------------------------------------
+START FROM COMMAND LINE
+
+rails new myrubyblog
+	- installs framework
+	
+cd myrubyblog
+
+rails server
+	- runs the server
+	- use http://localhost:3000 on browser to view
+	
+Keep the server running and create another instance of CMD. DONT USE THE CMD THAT
+IS RUNNING THE SERVER
+In your new CMD, Start by creating a controller by going back to your project folder
+and typing
+	- rails generate controller home index
